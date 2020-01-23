@@ -28,7 +28,7 @@ header {
 }
 
 article {
-  width: 80%;
+  width: 75%;
   height: 100vh;
   background: yellowgreen;
   margin: 1%;
@@ -52,7 +52,7 @@ article {
   text-align: justify;
   width: 50%;
   margin-top: 2px; 
-  margin-left: 25px;
+ margin-left: 25px;
 }
 
 #articulo3 {
@@ -87,25 +87,23 @@ text-align: left;
 }
 
 aside{
-  width: 17%;
-  height: 50vh ;
+  width: 20%;
+  height: 0vh ;
   float: left;
-  background: black;
-     
+  
+       
 }
 
-
-#ad1 {
-  background: yellowgreen;
-  float: left;
-  width: 18%;
+#publicidad1 {
+  background: greenyellow;
+    width: 18%;
  }
 
 
-#id2 {
+ #publicidad1 {
   background: darkseagreen;
-  width: 18%;
-  }
+  width: 18;
+   }
 
 
 
