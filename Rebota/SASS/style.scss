@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    right: 100%;
+   // background: blue;
+   
+}
+
+.contenedor{
+    width: 80%;
+    height: 100vh;
+    background: rgba(10, 10, 223, 0.795);
+    margin: 10px;
+    position: relative; 
+   
+
+    }
+
+.pelota{
+    background: red;
+    width: 8%;
+    height: 12%;
+    position: absolute;
+    border-radius: 50%;
+   // margin-top: 50%;
+    //padding-bottom: 10px;
+    animation: pelota 3s ;
+}
+
+@keyframes pelota{
+
+    0%{
+       background-color: red;
+       margin-top: 0%;
+       animation-timing-function: linear;
+             
+    }
+
+    10%{
+        background-color: chartreuse;
+        margin-left:10%;
+        margin-top: 55%;
+        animation-timing-function: linear;
+    }
+
+   
+    20%{
+        background-color: deeppink;
+        margin-left: 20%;
+        margin-top: 8%;
+        animation-timing-function: linear;
+    }
+
+    
+   30%{
+        background-color: green;
+        margin-left: 30%;
+        margin-top: 55%;
+        animation-timing-function: linear;
+    }
+
+    40%{
+        background-color: violet;
+        margin-left: 40%;
+        margin-top: 20%;
+        animation-timing-function: linear;
+    }
+
+    
+    50%{
+     background-color: red;
+     margin-left: 50%;
+     margin-top: 55%;
+     animation-timing-function: linear;
+    }
+
+    
+    60%{
+        background-color: red;
+        margin-left: 60%;
+        margin-top: 35%;
+        animation-timing-function: linear;
+       }
+
+       70%{
+           background-color: lightseagreen;
+           margin-left: 70%;
+           margin-top: 55%;
+           animation-timing-function: linear;
+       }
+
+       80%{
+           background-color: limegreen;
+           margin-left: 80%;
+           margin-top: 45%;
+           animation-timing-function: linear;
+       }
+
+       90%{
+           background-color: magenta;
+           margin-left: 90%;
+           margin-top: 55%;
+           animation-timing-function: linear;
+       }
+
+       100%{
+            background-color: gold;
+            margin-left: 100%;
+            margin-top: 55%;
+            animation-timing-function: linear;
+       }
+   
+
+   
+
+  
+    
+
+    
+   
+
+    
+}
